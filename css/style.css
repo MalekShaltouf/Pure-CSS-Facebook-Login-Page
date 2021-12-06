@@ -1,0 +1,121 @@
+*{
+    margin:0;
+}
+
+div.parent{
+   background-color:#000066;
+   color:#fff;
+   overflow:hidden;
+   
+}
+.child1{
+   
+   /* margin-left:100px;
+   margin-top:20px; */
+   padding-left:100px;
+   padding-top:25px;
+   float:left;
+}
+.child2{
+   
+   /* margin-left:500px;
+   margin-top:10px; */
+   padding-left:440px;
+   padding-top:25px;
+   float:left;
+}
+td{
+   vertical-align:top; 
+}
+
+.rod:hover{text-decoration:underline;cursor:pointer;}
+input[value="Log-In"]{
+   width:80px;
+   background-color:#1a1aff;
+   border-radius:5px;
+   color:#fff;
+   font-size:16px; 
+   margin-left:15px;
+}
+input[value="Log-In"]:hover{background-color:#000080;}
+a.link{
+   text-decoration:none;
+   font-size:40px;
+   font-weight:bolder;
+   color:#fff;
+}
+
+.im{
+   background-color:#fff;
+   width:100px;
+   height:100px;
+}
+img:hover{outline:5px solid #ddd;cursor: pointer;}
+.sp{
+   display:inline-block;
+   color:blue;
+   background-color:#fff;
+   text-align:center;
+   padding:10px;
+   cursor: default;
+   
+   
+   
+}
+input[name="Fname"],[name="Lname"]{
+   width:160px;
+   height:30px;
+   border-radius:5px;
+}
+input[name="Lname"]{margin-left:10px;}
+input[name="Mail"]{
+border-radius:5px;
+height:30px;
+width:340px;
+
+}
+select{
+   width:100px;
+   height:30px;
+   border-radius:5px;
+}
+
+input[value="Sign-up"]{
+   width:180px;
+   height:40px;
+   background-color:#008000;
+   color:#fff;
+   font-weight:bolder;
+   font-size:20px;
+   border-radius:5px;
+}
+.parent2{
+   background-color:#ebebe0;
+   overflow:auto;
+   height:600px;
+   padding-top:30px;
+   
+}
+.demo{
+   padding-left:100px;
+   
+   float:left;
+}
+.demo2{
+   padding-left:230px;
+  
+   float:left;
+}
+.parent3{
+   word-spacing:12px;
+   padding-left:50px;
+   padding-top:50px;
+}
+input[type="button"]{
+   background-image:url("../Images/plus.png");
+   background-repeat:no-repeat;
+   width:30px;
+   height:30px;
+   
+   
+}
